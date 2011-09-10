@@ -1,0 +1,107 @@
+/*
+Theme Name: XO-NAOMI
+Theme URI: http://www.XO-NAOMI.com
+Description: XXXO
+Version: 1
+Author: William Wong
+Author URI: http://www.XO-NAOMI.com
+*/
+
+/**
+ * @copyright	Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+ * @license		Code licensed under the BSD License:
+ * @url			http://developer.yahoo.net/yui/license.txt
+ * @version 	2.6.0
+ */
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+/**
+ * @font-size references
+ * 	10px 	 77%
+ * 	11px 	85
+ * 	12px 	93 (was 93)
+ * 	13px 	100
+ * 	14px 	108 (was 107) 	
+ * 	15px 	116 (was 114)
+ * 	16px 	123.1 (was 122)
+ * 	17px 	131 (was 129)
+ * 	18px 	138.5 (was 136)
+ * 	19px 	146.5 (was 144)
+ * 	20px 	153.9 (was 152)
+ * 	21px 	161.6 (was 159)
+ * 	22px 	167
+ * 	23px 	174
+ * 	24px 	182
+ * 	25px 	189
+ * 	26px 	197
+ */
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+h1, h2, h3, h4, h5, h6, a {color:#333;}
+p {color:#ccc;}
+a, a:link, a:active, a:visited, a:hover {text-decoration:none;}
+/* END */
+
+html, body {background:#111 url('img/noise.png');height:100%;width:100%;}
+
+::selection {background:transparent;color:#ff3169}
+::-moz-selection {background:transparent;color:#ff3169}
+::-webkit-selection {background:transparent;color:#ff3169}
+
+#hd {background:#111 url('img/noise.png');height:150px;overflow:hidden;position:relative;width:100%;}
+#hd h1 {bottom:0px;cursor:default;font-family:'Oswald', sans-serif;font-size:48px;height:52px;position:absolute;right:-3px;text-align:right;}
+#hd ul {bottom:0px;height:19px;position:absolute;}
+#hd li {float:left;font-family:'Oswald', sans-serif;font-size:18px;margin-right:15px;text-transform:uppercase;}
+#hd li.current_page_item a, #hd li.current-cat a {color:#ccc;}
+#hd a:hover {color:#ccc;-moz-transition:color 0.3s ease;-webkit-transition:color 0.3s ease;-o-transition:color 0.3s ease;transition:color 0.3s ease;}
+
+#bd p {color:#ccc;font-size:11px;line-height:14px;margin-bottom:15px;}
+#bd h2 {color:#ccc;font-size:16px;margin-bottom:10px;text-transform:uppercase;}
+#bd span {color:#666;font-size:11px;}
+
+#bd {background:#333;height:100%;margin:auto;width:960px;}
+#bd #content {background:#333;padding:45px 20px 100px 20px;overflow:hidden;position:relative;}
+#bd #content a {color:#ccc;}
+#bd #content a:hover {color:#ff3169}
+#bd #content p a {font-size:11px;margin-bottom:15px;text-decoration:underline;}
+#bd #content span a {color:#666;font-size:11px;}
+#bd #content span a:hover {color:#666;text-decoration:underline;}
+
+#bd div.weblog {min-height:338px;margin-bottom:45px;overflow:hidden;position:relative;width:920px;}
+#bd div.weblog iframe {height:338px;width:600px;}
+#bd div.weblog img, #bd div.weblog iframe {float:left;left:0px;position:absolute;top:0px;}
+#bd div.weblog p, #bd div.weblog h2, #bd div.weblog span {padding-left:615px;width:305px;}
+#bd div.weblog span.date {display:block;margin-bottom:15px;}
+#bd div.weblog p em {font-style:italic;}
+
+#bd div.projects {margin-bottom:30px;overflow:hidden;position:relative;width:920px;}
+#bd div.projects h2 {padding-top:528px;width:700px;}
+#bd div.projects img {left:0px;position:absolute;top:0px;}
+#bd div.projects span.date {display:block;position:absolute;right:0px;top:532px;}
+#bd div.projects span.comment {position:absolute;right:0px;top:532px;}
+#bd div.projects p em {font-style:italic;}
+
+#bd div.about p {color:#ccc;float:right;font-size:11px;margin-bottom:15px;width:305px;}
+#bd div.about div.ask-no-questions {background:url('img/a.jpg') no-repeat left top;float:left;height:258px;width:600px;}
+#bd div.about div.a0 {background-position:left 260px;}
+#bd div.about div.a1 {background-position:left -260px;}
+#bd div.about div.a2 {background-position:left -520px;}
+#bd div.about div.a3 {background-position:left -780px;}
+
+#bd div.paging a {font-size:11px;font-style:italic;}
+#bd div.next {bottom:45px;position:absolute;right:20px;}
+#bd div.prev {bottom:45px;left:20px;position:absolute;}
